@@ -55,3 +55,17 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "alfred",       "1.1.6"
+github "chrome",       "1.1.1"
+github "dropbox",      "1.1.2"
+github "firefox",      "1.1.4"
+github "flux",         "1.0.0"
+github "heroku",       "2.1.1"
+github "iterm2",       "1.0.3"
+github "java",         "1.1.2"
+github "minecraft",    "1.0.2"
+github "sourcetree",   "1.0.0"
+github "steam",        "1.0.1"
+github "transmission", "1.0.0"
+github "zsh",          "1.0.0"
