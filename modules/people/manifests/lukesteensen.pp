@@ -23,6 +23,11 @@ class people::lukesteensen {
 
   repository { '/Users/luke/dotfiles':
     source => 'lukesteensen/dotfiles',
+    notify => Exec['Copy dotfiles'],
+  }
+
+  repository { '/Users/luke/.vim/bundle/vundle':
+    source => 'gmarik/vundle',
   }
 
   repository { '/Users/luke/.oh-my-zsh':
@@ -31,5 +36,10 @@ class people::lukesteensen {
 
   repository { '/Users/luke/dev/bluepencil':
     source => 'git@bitbucket.org:lukesteensen/bluepencil.git',
+  }
+
+  exec { 'Copy dotfiles':
+    command => 'cd /Users/luke/dotfiles && rake',
+    refreshonly => true,
   }
 }
