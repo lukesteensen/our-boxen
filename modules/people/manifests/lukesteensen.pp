@@ -18,6 +18,7 @@ class people::lukesteensen {
       'postgresql',
       'pv',
       'the_silver_searcher',
+      'vim',
     ]:
   }
 
