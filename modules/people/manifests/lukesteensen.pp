@@ -35,6 +35,10 @@ class people::lukesteensen {
     source => 'robbyrussell/oh-my-zsh',
   }
 
+  repository { '/Users/luke/dev/bitcast':
+    source => 'lukesteensen/bitcast',
+  }
+
   repository { '/Users/luke/dev/bluepencil':
     source => 'git@bitbucket.org:lukesteensen/bluepencil.git',
   }
