@@ -8,6 +8,7 @@ class people::lukesteensen {
   include iterm2::stable
   include java
   include minecraft
+  include redis
   include sourcetree
   include steam
   include transmission
@@ -15,9 +16,12 @@ class people::lukesteensen {
 
   package {
     [
+      'ansible',
+      'go',
       'postgresql',
       'pv',
       'the_silver_searcher',
+      'tmux',
       'vim',
     ]:
   }
