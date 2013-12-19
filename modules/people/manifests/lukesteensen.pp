@@ -9,6 +9,7 @@ class people::lukesteensen {
   include java
   include minecraft
   include redis
+  include screenhero
   include sourcetree
   include steam
   include transmission
