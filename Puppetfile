@@ -71,3 +71,5 @@ github "sourcetree",   "1.0.0"
 github "steam",        "1.0.1"
 github "transmission", "1.0.0"
 github "zsh",          "1.0.0"
+
+mod "brewcask", :git => "git://github.com/phinze/puppet-brewcask.git"

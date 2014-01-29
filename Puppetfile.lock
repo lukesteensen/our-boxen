@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/phinze/puppet-brewcask.git
+  ref: master
+  sha: fc9adbf88063d2681cda608df47d517470d03fed
+  specs:
+    brewcask (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
@@ -171,6 +178,7 @@ GITHUBTARBALL
 DEPENDENCIES
   alfred (= 1.1.7)
   boxen (= 3.3.4)
+  brewcask (>= 0)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)

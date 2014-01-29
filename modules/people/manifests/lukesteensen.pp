@@ -1,5 +1,6 @@
 class people::lukesteensen {
   include alfred
+  include brewcask
   include chrome
   include dropbox
   include firefox
@@ -26,6 +27,8 @@ class people::lukesteensen {
       'vim',
     ]:
   }
+
+  package { ['qlcolorcode', 'qlstephen', 'quicklook-json']: provider => 'brewcask' }
 
   repository { '/Users/luke/dotfiles':
     source => 'lukesteensen/dotfiles',
