@@ -55,4 +55,9 @@ class people::lukesteensen {
     command => 'cd /Users/luke/dotfiles && rake',
     refreshonly => true,
   }
+
+  file { "/Users/${::boxen_user}/Library/Fonts/Monaco+for+Powerline.otf":
+    ensure => file,
+    source => "${::boxen_repodir}/files/fonts/Monaco+for+Powerline.otf"
+  }
 }
