@@ -20,6 +20,7 @@ class people::lukesteensen {
     [
       'ansible',
       'go',
+      'jq',
       'postgresql',
       'pv',
       'the_silver_searcher',
